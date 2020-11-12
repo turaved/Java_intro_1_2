@@ -7,9 +7,7 @@
 На тестирование затрачено: 1 час
 
 В результате тестирования выявлены следующие дефекты: 
-* при проверке 14-ти значного валидного номера карты **30281095698577** получен результат **FAIL** [issue](https://github.com/turaved/Java_intro_1_2/issues/1#issue-740205125)
-* при проверке 15-ти значного валидного номера карты **345009293154071** получен результат **FAIL** [issue](https://github.com/turaved/Java_intro_1_2/issues/1#issue-740205125)
-* при проверке 19-ти значного валидного номера карты **4539673702537013096** получен результат **FAIL** [issue](https://github.com/turaved/Java_intro_1_2/issues/1#issue-740205125)
+* [Валидные 14, 15 и 19-ти значные номера карт не проходят валидацию в приложении Credit Card Number Validator](https://github.com/turaved/Java_intro_1_2/issues/1)
 
 ## Описание процесса тестирования
 * с помощью ресурса [FreeFormatter.com](https://www.freeformatter.com/credit-card-number-generator-validator.html) получить валидный номер карты
